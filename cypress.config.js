@@ -1,7 +1,10 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  video:true,
+  screenshotOnRunFailure: true,
   reporter: 'cypress-mochawesome-reporter',
+
   e2e: {
     baseUrl:"https://naveenautomationlabs.com/opencart/index.php?route=account/login",
     setupNodeEvents(on, config) {

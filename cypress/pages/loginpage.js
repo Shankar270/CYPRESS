@@ -4,6 +4,7 @@ export class loginPage{
         searchButton:'.input-group-btn > .btn',
         product:'img[title="MacBook"]',
         addtocart:'Add to Cart',
+
         SucessMessage:'.alert'
     }
     searchProduct(productName){
